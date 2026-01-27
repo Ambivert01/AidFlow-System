@@ -2,7 +2,7 @@ export class RequestContext
 {
     constructor({requestId, timestamp, source}) 
     {
-        this.requestId = requestId; // Unique ID for every request
+        this.request_id = this.request_id; // Unique ID for every request
         this.timestamp = timestamp; // When request started
         this.source = source;   // Mobile app, Web app, Internal service
 

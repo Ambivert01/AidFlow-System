@@ -1,0 +1,3 @@
+export const AUDIT_EVENTS = {
+    REQUEST_RECEIVED: "REQUEST_RECEIVED"
+}
